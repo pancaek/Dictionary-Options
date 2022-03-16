@@ -1,0 +1,95 @@
+dictionary:
+  title: Proto-Wei Lexicon
+  author: Pancake
+  langname: Wei
+  no-section-pagebreak: True
+  sections:
+    -
+      name: A
+      words:
+        -
+          ipa: '`an.he'
+          ortho: anhe
+          definitions:
+            -
+              pos: n
+              meaning: place of afterlife
+              note: 'This clarifies that any form of afterlife is considered an \textit{anhe}, not just the positive ones, due to semantic overlap with \textit{geda}.'
+            -
+              pos: n
+              meaning: heaven
+    -
+      name: G
+      words:
+        -
+          ipa: 'ga`sabe'
+          ortho: gasabe
+          etymology: from \textit{qyp} `dust'
+          definitions:
+            -
+              pos: n
+              meaning: a disease similar to pneumonia which causes inflammation of the lungs, as well as acute headaches due to the resulting oxygen deficiency.
+
+        -
+          ipa: '`ge.da'
+          ortho: geda
+          definitions:
+            -
+              pos: n
+              meaning: the place where souls go if they are unable return to \textit{anhe}
+            -
+              pos: n
+              meaning: hell
+              note: While this is not necessarily an accurate translation, it most closely matches the pragmatics that accompany the word.
+
+    -
+      name: Q
+      words:
+        -
+          ipa: '`ki.ta'
+          ortho: qita
+          definitions:
+            -
+              pos: n
+              meaning: tree
+        -
+          ipa: 'kəp'
+          ortho: qyp
+          definitions:
+            -
+              pos: n
+              meaning: dust
+    -
+      name: R
+      words:
+        -
+          ipa: '`ra.sa'
+          ortho: rasa
+          definitions:
+            -
+              pos: n
+              meaning: air
+            -
+              pos: n
+              meaning: breeze
+            -
+              pos: n
+              meaning: breath, an exhalation
+
+    -
+      name: S
+      words:
+        -
+          ipa: '`su.lo'
+          ortho: sulo
+          etymology: direct loan from Kïlta \textit{sullo} `to swat, shoo'
+          definitions:
+          -
+            pos: v
+            meaning: to shoo, swat away
+          -
+            pos: v
+            meaning: to push aside, or open unlocked things, such as curtains or windows
+          -
+            pos: v
+            meaning: to open small things, such as envelopes or coinpurses
