@@ -1,0 +1,29 @@
+\newcommand{\skipline}{\par\bigskip}
+
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{3}
+\usepackage{xparse}
+\newcommand{\fullindent}{
+	\hangindent=\parindent
+	\hangafter=1
+}
+
+\newcommand{\note}[1]{
+	\skipline
+	\fullindent
+	\textit{{#1}}
+}
+
+\NewDocumentCommand{\dictterm}{m o m}{
+	\fullindent
+	\IfNoValueTF{#2}{
+		{#1}.\enspace{#3}
+	}{
+		{#1}.\enspace\textit{(#2)} {#3}
+	}
+}
+
+\newcommand{\dictword}[2]{
+	\skipline
+	\noindent\textbf{{#1}} - [{#2}]
+}
